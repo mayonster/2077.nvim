@@ -43,6 +43,7 @@ local colors = {
   cyan           = "#0ef3ff",
   star_blue      = "#a9d8ff",
   darkblue       = "#00005F",
+  blue           = "#0098df",
   sign_add       = "#0b8146",
   sign_change    = "#dbcd00",
   sign_delete    = "#c6182c",
