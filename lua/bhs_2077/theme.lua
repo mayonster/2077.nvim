@@ -61,7 +61,7 @@ theme.set_highlights = function()
   hl(0, "EndOfBuffer", { fg = c.bg, bg = 'NONE' })
   hl(0, "NonText", { fg = c.bg, bg = 'NONE' })
   hl(0, "Variable", { fg = c.seafoam, bg = 'NONE' })
-  hl(0, "@variable", { fg = c.seafoam, bg = 'NONE' })
+  hl(0, "@variable", { fg = c.magenta, bg = 'NONE' })
   hl(0, "String", { fg = c.cyan, bg = 'NONE' })
   hl(0, "Character", { fg = c.orange, bg = 'NONE' })
   hl(0, "Constant", { fg = c.royal, bg = 'NONE' })
@@ -101,6 +101,7 @@ theme.set_highlights = function()
   hl(0, "TabLine", { fg = c.light_gray, bg = c.line })
   hl(0, "TabLineSel", { fg = c.white, bg = c.line })
   hl(0, "TabLineFill", { fg = c.line, bg = c.line })
+  
 
   -- Bash
   hl(0, "@variable.parameter.bash", { fg = c.altred, bg = 'NONE' })
@@ -463,6 +464,33 @@ theme.set_highlights = function()
 
   -- Window Separator
   hl(0, "WinSep", { fg = c.yellow, bg = c.yellow })
+
+  --Neovim Diagnositc
+  hl(0, "DiagnosticError", { fg = c.red, bg = 'NONE' })
+  hl(0, "DiagnosticWarn", { link = "CyberYellow" })
+  hl(0, "DiagnosticInfo", { link = "CyberSky" })
+  hl(0, "DiagnosticHint", { link = "CyberTurquoise" })
+  hl(0, "DiagnosticOk", { link = "CyberEmerald" })
+  hl(0, "DiagnosticUnderlineError", { undercurl = true, sp = red })
+  hl(0, "DiagnosticUnderlineWarn", { undercurl = true, sp = yellow })
+  hl(0, "DiagnosticUnderlineInfo", { undercurl = true, sp = sky })
+  hl(0, "DiagnosticUnderlineHint", { undercurl = true, sp = turquoise })
+  hl(0, "DiagnosticUnderlineOk", { undercurl = true, sp = emerald })
+  hl(0, "DiagnosticVirtualTextError", { link = "CyberRedRow" })
+  hl(0, "DiagnosticVirtualTextWarn", { link = "CyberYellowRow" })
+  hl(0, "DiagnosticVirtualTextInfo", { link = "CyberSkyRow" })
+  hl(0, "DiagnosticVirtualTextHint", { link = "CyberTurquoiseRow" })
+  hl(0, "DiagnosticVirtualTextOk", { link = "CyberEmeraldRow" })
+  hl(0, "DiagnosticSignError", { link = "CyberRed" })
+  hl(0, "DiagnosticSignWarn", { link = "CyberYellow" })
+  hl(0, "DiagnosticSignInfo", { link = "CyberSky" })
+  hl(0, "DiagnosticSignHint", { link = "CyberTurquoise" })
+  hl(0, "DiagnosticSignOk", { link = "CyberEmerald" })
+  hl(0, "DiagnosticFloatingError", { link = "CyberRed" })
+  hl(0, "DiagnosticFloatingWarn", { link = "CyberYellow" })
+  hl(0, "DiagnosticFloatingInfo", { link = "CyberSky" })
+  hl(0, "DiagnosticFloatingHint", { link = "CyberTurquoise" })
+  hl(0, "DiagnosticFloatingOk", { link = "CyberEmerald" })
 end
 
 return theme
