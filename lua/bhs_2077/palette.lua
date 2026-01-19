@@ -54,6 +54,7 @@ local colors = {
   success_green  = "#14C50B",
   ui2_blue       = "#042E48",
   ui3_blue       = "#0195F7",
+  wine           = "#9e0a52",
   -- from lualine
   ll_black       = '#202020',
   shellblue      = '#00DFFF',
