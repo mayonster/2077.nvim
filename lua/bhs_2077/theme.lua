@@ -1,4 +1,4 @@
-local c = require('2077.palette')
+local c = require('bhs_2077.palette')
 
 local hl = vim.api.nvim_set_hl
 local theme = {}

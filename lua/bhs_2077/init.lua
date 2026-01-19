@@ -1,5 +1,5 @@
 local M = {}
-local theme = require('2077.theme')
+local theme = require('bhs_2077.theme')
 
 M.setup = function()
   vim.cmd('hi clear')
