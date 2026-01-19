@@ -125,6 +125,7 @@ theme.set_highlights = function()
 
   -- C
   hl(0, "@variable.parameter.c", { fg = c.altred, bg = 'NONE' })
+  hl(0, "cParen", { fg = c.magenta, bg = 'NONE' })
 
   -- Cmp
   hl(0, "CmpItemAbbrDeprecated", { fg = c.white, bg = 'NONE', strikethrough = true, })
