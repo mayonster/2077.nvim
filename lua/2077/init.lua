@@ -1,5 +1,5 @@
 local M = {}
-local theme = require('black_hole_sun.theme')
+local theme = require('2077.theme')
 
 M.setup = function()
   vim.cmd('hi clear')

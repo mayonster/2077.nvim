@@ -1,4 +1,4 @@
-local c = require('black_hole_sun.palette')
+local c = require('2077.palette')
 
 local hl = vim.api.nvim_set_hl
 local theme = {}
