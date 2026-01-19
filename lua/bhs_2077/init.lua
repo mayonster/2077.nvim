@@ -10,7 +10,7 @@ M.setup = function()
   end
 
   vim.o.termguicolors = true
-  vim.g.colors_name = '2077'
+  vim.g.colors_name = 'bhs-2077'
 
   theme.set_highlights()
 end
