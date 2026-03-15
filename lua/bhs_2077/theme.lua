@@ -187,7 +187,7 @@ theme.set_highlights = function()
   -- IndentBlankline
   hl(0, "IndentBlanklineContextChar", { fg = c.context, bg = 'NONE' })
   hl(0, "IndentBlanklineContextStart", { fg = 'NONE', bg = 'NONE', underline = true, })
-  hl(0, "IndentBlanklineChar", { fg = c.dark_gray, bg = 'NONE' })
+  hl(0, "IndentBlanklineChar", { fg = c.star_blue, bg = 'NONE' })
   hl(0, "IndentBlanklineSpaceChar", { fg = c.cyan, bg = 'NONE' })
   hl(0, "IndentBlanklineSpaceCharBlankline", { fg = c.info_yellow, bg = 'NONE' })
 
