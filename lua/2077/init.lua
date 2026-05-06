@@ -1,5 +1,5 @@
 local M = {}
-local theme = require('bhs_2077.theme')
+local theme = require('2077.theme')
 
 M.setup = function()
   vim.cmd('hi clear')
@@ -10,7 +10,7 @@ M.setup = function()
   end
 
   vim.o.termguicolors = true
-  vim.g.colors_name = 'bhs-2077'
+  vim.g.colors_name = '2077'
 
   theme.set_highlights()
 end
