@@ -1,16 +1,14 @@
-Black Hole Sun -- Nvim Color theme
+# 2077 - A Neovim Colorscheme
 
 ![Screenshot](/scrn.png?raw=true)
 
-Partially inspired by:
+Theme ported from:
 
-Dark Horizon from VSC
-https://marketplace.visualstudio.com/items?itemName=mcagampan.dark-horizon
+2077 theme for VSCode by Endormi
+https://github.com/endormi/vscode-2077-theme
 
-Oxocarbon
-https://github.com/nyoom-engineering/oxocarbon.nvim
+I stumbled on this theme in college, and I haven't used anything else since. When I wanted to switch to Neovim, of course I had to bring the theme with me. 
 
-Modus-Vivendi Emacs Theme
-https://protesilaos.com/emacs/modus-themes-pictures
+I used the Black Hole Sun theme from Rydwxz as a starting point. It helped me get a grasp of highlights in Neovim. Thank you! 
+https://github.com/Rydwxz/bhs
 
-I apologize, but I made this theme for myself. It does not conform to any accessibility standards and  makes heavy use of various shades of red.
